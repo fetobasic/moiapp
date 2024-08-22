@@ -1,0 +1,593 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorCodes renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Error Codes
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "marginVertical": 16,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F1
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Voltage Protection Mode
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Low voltage to the fridge. To continue using the fridge, change mode from HIGH to MEDIUM or MEDIUM to LOW.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F2
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Current is Too High for Fan
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Turn the fridge off and restart it after 5 minutes.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F3
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Compressor Frequently Restarting
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Turn the fridge off and restart it after 5 minutes.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F4
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Compressor Overloaded
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Compressor will be operating at low speed. Turn the fridge off and restart it after 5 minutes.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F5
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Compressor Overheated
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Move the fridge to a ventilated area, turn it off and restart it after 5 minutes. 
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F6
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            No Parameters Detected
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Restart the fridge. If error continues, contact support.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F7
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Temperature Sensor Short Circuit
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Restart the fridge. If error continues, contact support.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 24,
+            "marginLeft": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          F8
+        </Text>
+        <View
+          style={
+            {
+              "flex": 1,
+              "marginLeft": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              }
+            }
+          >
+            Temperature Sensor Malfunction
+          </Text>
+          <Text
+            style={
+              {
+                "color": "rgba(133, 133, 133, 1)",
+                "fontFamily": "RobotoCondensed-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              }
+            }
+          >
+            Restart the fridge. If error continues, contact support.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

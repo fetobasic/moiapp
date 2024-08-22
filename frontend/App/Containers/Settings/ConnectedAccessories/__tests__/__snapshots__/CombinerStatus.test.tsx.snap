@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CombinerStatus renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Yeti Series Combiner Status
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingHorizontal": 24,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(3, 207, 3, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          120V Available
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Green
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          Only one Yeti detected. Waiting for the second Yeti to be connected.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(255, 205, 29, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Syncing
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Yellow
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          Syncing connected Yetis. They will be ready shortly.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(28, 154, 214, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          240V / 
+          30
+          A Active
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Blue
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          The Yetis are combined. You can now use 240V AC outputs up to 
+          30
+           Amps.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CombinerStatus renders screen isYeti20004000: false 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Yeti Series Combiner Status
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flex": 1,
+        "paddingHorizontal": 24,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(3, 207, 3, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          120V Available
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Green
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          Only one Yeti detected. Waiting for the second Yeti to be connected.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(255, 205, 29, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Syncing
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Yellow
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          Syncing connected Yetis. They will be ready shortly.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "marginBottom": 16,
+          "paddingHorizontal": 16,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 32,
+            "justifyContent": "center",
+            "marginTop": 8,
+            "width": 32,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 6,
+                "height": 12,
+                "width": 12,
+              },
+              {
+                "backgroundColor": "rgba(28, 154, 214, 1)",
+              },
+            ]
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginLeft": 8,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          240V / 
+          15
+          A Active
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 10,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            }
+          }
+        >
+          Blue
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(133, 133, 133, 1)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          The Yetis are combined. You can now use 240V AC outputs up to 
+          15
+           Amps.
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

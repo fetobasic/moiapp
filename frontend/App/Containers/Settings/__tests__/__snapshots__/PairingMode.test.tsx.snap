@@ -1,0 +1,3079 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PairingMode renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Pairing Mode
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "marginVertical": 16,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(27, 27, 27, 1)",
+              "borderRadius": 16,
+              "paddingHorizontal": 12,
+              "paddingVertical": 15,
+            },
+            undefined,
+            {
+              "marginBottom": 8,
+              "marginHorizontal": 1,
+              "paddingVertical": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              }
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                },
+                undefined,
+                {
+                  "paddingRight": 0,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginVertical": 4,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Set Device
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                    "lineHeight": 16,
+                    "marginBottom": 4,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Different devices have different pairing mode instructions.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "marginRight": -12,
+            "marginTop": 8,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti700_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 700
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti500_front.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 85,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 500
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti300_front.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 75,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 300
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti2000.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 95,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti PRO 2000
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti1500.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 90,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 1500
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti1000.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 85,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 1000
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti4000.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 100,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti PRO 4000
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti6000x_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 6000X
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti3000x_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 3000X
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti1500x_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 1500X
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti3000_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 3000 Lithium
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/yeti1400_front.png",
+                      }
+                    }
+                    style={{}}
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Yeti 1400 Lithium
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/alta45_front.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 100,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Alta 50
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "marginRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "elevation": 2,
+                  "marginBottom": 8,
+                  "shadowColor": "rgba(0, 0, 0, 0.4)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.7,
+                  "shadowRadius": 7,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 16,
+                    "marginHorizontal": 1,
+                    "overflow": "hidden",
+                    "paddingTop": 1,
+                    "position": "relative",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <RNSVGSvgView
+                bbHeight="100%"
+                bbWidth="100%"
+                focusable={false}
+                height="100%"
+                style={
+                  [
+                    {
+                      "backgroundColor": "transparent",
+                      "borderWidth": 0,
+                    },
+                    {
+                      "bottom": 0,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    {
+                      "flex": 0,
+                      "height": "100%",
+                      "width": "100%",
+                    },
+                  ]
+                }
+                width="100%"
+              >
+                <RNSVGGroup
+                  fill={
+                    {
+                      "payload": 4278190080,
+                      "type": 0,
+                    }
+                  }
+                >
+                  <RNSVGDefs>
+                    <RNSVGLinearGradient
+                      gradient={
+                        [
+                          0,
+                          -13224394,
+                          1,
+                          1776411,
+                        ]
+                      }
+                      gradientTransform={null}
+                      gradientUnits={0}
+                      name="grad"
+                      x1="0"
+                      x2="0"
+                      y1="0"
+                      y2="0.5"
+                    />
+                  </RNSVGDefs>
+                  <RNSVGRect
+                    fill={
+                      {
+                        "brushRef": "grad",
+                        "type": 1,
+                      }
+                    }
+                    height="100%"
+                    propList={
+                      [
+                        "fill",
+                      ]
+                    }
+                    width="100%"
+                    x="0"
+                    y="0"
+                  />
+                </RNSVGGroup>
+              </RNSVGSvgView>
+              <View
+                style={
+                  [
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "borderRadius": 16,
+                      "paddingHorizontal": 12,
+                      "paddingVertical": 15,
+                    },
+                    {
+                      "height": 170,
+                      "width": 340,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "height": 100,
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Image
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../App/Images/Models/alta80_front.png",
+                      }
+                    }
+                    style={
+                      {
+                        "width": 120,
+                      }
+                    }
+                  />
+                </View>
+                <Text
+                  numberOfLines={2}
+                  style={
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Alta 80
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

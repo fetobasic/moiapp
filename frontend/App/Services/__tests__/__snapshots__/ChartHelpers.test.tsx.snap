@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 1`] = `
+<div>
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={15}
+        dy={152}
+      />
+    }
+    axisValue={0}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label="AM"
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={1}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label=""
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 2`] = `<div />`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 3`] = `
+<div>
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={0.5}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label="Oct 16"
+    style={
+      {
+        "axis": {
+          "stroke": "rgba(54, 54, 54, 1)",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={1.5}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label=""
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 4`] = `
+<div>
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={15}
+        dy={152}
+      />
+    }
+    axisValue={0}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label="Oct"
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={1}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label=""
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 5`] = `<div />`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 6`] = `<div />`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 7`] = `
+<div>
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={15}
+        dy={152}
+      />
+    }
+    axisValue={0}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label="2023"
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={1.5}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label=""
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ChartHelpers renderBottomDates should render VictoryAxis elements for DateTypes 8`] = `
+<div>
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={15}
+        dy={152}
+      />
+    }
+    axisValue={0}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label="2023"
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+  <View
+    axisLabelComponent={
+      <UNDEFINED
+        angle={0}
+        dx={28}
+        dy={152}
+      />
+    }
+    axisValue={1}
+    dependentAxis={true}
+    domain={
+      [
+        -14,
+        0,
+      ]
+    }
+    label=""
+    style={
+      {
+        "axis": {
+          "stroke": "none",
+        },
+        "axisLabel": {
+          "fill": "rgba(255, 255, 255, 0.87)",
+          "fontSize": 10,
+        },
+        "grid": {
+          "stroke": "none",
+        },
+        "tickLabels": {
+          "fill": "none",
+        },
+        "ticks": {
+          "stroke": "none",
+        },
+      }
+    }
+  />
+</div>
+`;

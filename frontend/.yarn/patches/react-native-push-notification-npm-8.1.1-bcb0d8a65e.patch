@@ -1,0 +1,23 @@
+diff --git a/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java b/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
+index 721ca40cc44a558cbf3cd083849407bcf01ddd79..35dc81bbb5f615fe21cee649ebf4604a67ad5fbe 100644
+--- a/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
++++ b/android/src/main/java/com/dieam/reactnativepushnotification/modules/RNReceivedMessageHandler.java
+@@ -124,6 +124,18 @@ public class RNReceivedMessageHandler {
+             dataBundle.putString(entry.getKey(), entry.getValue());
+         }
+ 
++        if (notificationData != null) {
++            if (!bundle.containsKey("message") && notificationData.containsKey("message")) {
++                bundle.putString("message", notificationData.get("message"));
++            }
++            if (!bundle.containsKey("title") && notificationData.containsKey("title")) {
++                bundle.putString("title", notificationData.get("title"));
++            }
++            if (!bundle.containsKey("timestamp") && notificationData.containsKey("timestamp")) {
++                bundle.putString("timestamp", notificationData.get("timestamp"));
++            }
++        }
++
+         bundle.putParcelable("data", dataBundle);
+ 
+         Log.v(LOG_TAG, "onMessageReceived: " + bundle);

@@ -1,0 +1,516 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Connection renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Connection
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "overflow": "hidden",
+          "paddingTop": 2,
+          "position": "relative",
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+    testID="notificationBanner"
+  >
+    <View
+      style={
+        [
+          {
+            "height": 2,
+            "width": "100%",
+          },
+          {
+            "backgroundColor": "rgba(250, 253, 79, 1)",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(191, 210, 43, 1)",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 24,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "marginRight": 8,
+          }
+        }
+      >
+        <View>
+          <SvgMock
+            color="rgba(27, 27, 27, 1)"
+            height={32}
+            testID="icon"
+          />
+        </View>
+        <Text
+          numberOfLines={1}
+          style={
+            [
+              {
+                "color": "rgba(18, 18, 18, 1)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "400",
+                "lineHeight": 16,
+                "marginLeft": 12,
+                "width": 635,
+              },
+              false,
+            ]
+          }
+        >
+          Direct Connected. Tap here to Cloud Connect
+        </Text>
+      </View>
+      <View>
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight="24"
+          bbWidth="24"
+          fill="none"
+          focusable={false}
+          height="24"
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 24,
+                "width": 24,
+              },
+            ]
+          }
+          vbHeight={24}
+          vbWidth={24}
+          width="24"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4279966491,
+                  "type": 0,
+                }
+              }
+              height="24"
+              propList={
+                [
+                  "fill",
+                ]
+              }
+              rx="12"
+              width="24"
+              x="0"
+              y="0"
+            />
+            <RNSVGMask
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="16"
+              maskContentUnits={1}
+              maskUnits={1}
+              name="mask0_556_42262"
+              width="16"
+              x="4"
+              y="4"
+            >
+              <RNSVGRect
+                fill={
+                  {
+                    "payload": 4292467161,
+                    "type": 0,
+                  }
+                }
+                height="16"
+                propList={
+                  [
+                    "fill",
+                  ]
+                }
+                width="16"
+                x="4"
+                y="4"
+              />
+            </RNSVGMask>
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              mask="mask0_556_42262"
+            >
+              <RNSVGPath
+                d="M6 16.6668V14.0002C6 13.0779 6.325 12.2918 6.975 11.6418C7.625 10.9918 8.41111 10.6668 9.33333 10.6668H15.4667L13.0667 8.26683L14 7.3335L18 11.3335L14 15.3335L13.0667 14.4002L15.4667 12.0002H9.33333C8.77778 12.0002 8.30556 12.1946 7.91667 12.5835C7.52778 12.9724 7.33333 13.4446 7.33333 14.0002V16.6668H6Z"
+                fill={
+                  {
+                    "payload": 4290761259,
+                    "type": 0,
+                  }
+                }
+                propList={
+                  [
+                    "fill",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "marginVertical": 24,
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            {
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingTop": 6,
+              "position": "relative",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "paddingHorizontal": 12,
+                "paddingVertical": 15,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                ellipsizeMode="tail"
+                numberOfLines={1}
+                style={
+                  [
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                      "maxWidth": 210,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Current Connection
+              </Text>
+            </View>
+            <View
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                  },
+                  false,
+                ]
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                <Text
+                  ellipsizeMode="clip"
+                  numberOfLines={1}
+                  style={
+                    [
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 210,
+                      },
+                      {
+                        "color": "rgba(147, 147, 147, 1)",
+                      },
+                    ]
+                  }
+                >
+                  Direct
+                </Text>
+              </View>
+              <View
+                style={
+                  {
+                    "marginLeft": 8,
+                  }
+                }
+              >
+                <SvgMock
+                  color="rgba(191, 210, 43, 1)"
+                />
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

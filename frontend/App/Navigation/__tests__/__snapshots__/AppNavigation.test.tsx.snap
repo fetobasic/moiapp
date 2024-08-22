@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppNavigation renders correctly when isAppLoaded is true 1`] = `null`;

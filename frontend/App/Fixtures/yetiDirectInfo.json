@@ -1,0 +1,22 @@
+{
+  "name": "yeti30aea444377c",
+  "model": "Yeti 1400",
+  "firmwareVersion": "0.7.8",
+  "macAddress": "000a959d6816",
+  "state": {
+    "thingName": "yeti30aea444377c",
+    "timeToEmptyFull": 10,
+    "timestamp": 1514472706,
+    "socPercent": 20,
+    "ampsOut": 50,
+    "ampsIn": 50,
+    "usbPortStatus": 0,
+    "firmwareVersion": "0.7.8",
+    "v12PortStatus": 0,
+    "wattsIn": 50,
+    "volts": 99,
+    "isCharging": 0,
+    "acPortStatus": 0,
+    "wattsOut": 50
+  }
+}

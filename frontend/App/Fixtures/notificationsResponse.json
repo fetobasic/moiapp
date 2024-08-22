@@ -1,0 +1,30 @@
+{
+  "gzy1-b8d61a0e5938": [
+    {
+      "type": "AC_PORT_OVERLOAD_PROTECT",
+      "content": "AC port overload protection triggered.",
+      "title": "AC Port Overload Protection",
+      "createdAt": "2024-01-02T12:30:00Z"
+    },
+    {
+      "type": "HIGH_AC_PORT_CURRENT",
+      "content": "High AC port current detected.",
+      "title": "High AC Port Current",
+      "createdAt": "2024-01-02T10:00:00Z"
+    },
+    {
+      "type": "HIGH_AC_PORT_CURRENT",
+      "content": "High AC port current detected.",
+      "title": "High AC Port Current",
+      "createdAt": "2024-01-01T09:45:00Z"
+    }
+  ],
+  "yeti30aea444377c": [
+    {
+      "type": "AC_PORT_OVERLOAD_PROTECT",
+      "content": "AC port overload protection triggered.",
+      "title": "AC Port Overload Protection",
+      "createdAt": "2024-01-02T12:30:00Z"
+    }
+  ]
+}

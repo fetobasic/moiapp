@@ -1,0 +1,1471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortsInfo renders screen for Yeti renders screen for 6G yeti 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Ports
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            {
+              "marginTop": 16,
+            },
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              {
+                "borderTopWidth": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  {
+                    "color": "rgba(28, 154, 214, 1)",
+                    "fontFamily": "RobotoCondensed-Medium",
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                    "lineHeight": 32,
+                  },
+                ]
+              }
+            >
+              undefined W
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Input
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the wall
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Fully recharges in 14 hours using the included 120W Power Supply AC Wall Charger.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the sun
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Recharge from the sun by connecting a compatible solar panel. Charge times are dependent on the size of the solar panel.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the car
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            The Goal Zero Yeti 1400 can be charged by plugging into your 12V adapter using the Goal Zero Yeti Lithium 12V Car Charging Cable.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            {
+              "marginTop": 16,
+            },
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              {
+                "borderTopWidth": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  {
+                    "color": "rgba(191, 210, 43, 1)",
+                    "fontFamily": "RobotoCondensed-Medium",
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                    "lineHeight": 32,
+                  },
+                ]
+              }
+            >
+              undefined W
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Output
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Take your wall outlet anywhere
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Allows you to run power-hungry devices and appliances with confidence.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Versatile port options
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Power a wide range of devices with seven different port options including fast-charging 60W USB-C Power Delivery, multiple USB-A ports, regulated 12V, and two 120V AC ports.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Connection USB and USB-C
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`PortsInfo renders screen for Yeti renders screen for legacy yeti 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Ports
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            {
+              "marginTop": 16,
+            },
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              {
+                "borderTopWidth": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  {
+                    "color": "rgba(28, 154, 214, 1)",
+                    "fontFamily": "RobotoCondensed-Medium",
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                    "lineHeight": 32,
+                  },
+                ]
+              }
+            >
+              0 W
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Input
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the wall
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Fully recharges in 14 hours using the included 120W Power Supply AC Wall Charger.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the sun
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Recharge from the sun by connecting a compatible solar panel. Charge times are dependent on the size of the solar panel.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              From the car
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            The Goal Zero Yeti 1400 can be charged by plugging into your 12V adapter using the Goal Zero Yeti Lithium 12V Car Charging Cable.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            {
+              "marginTop": 16,
+            },
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              {
+                "borderTopWidth": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  {
+                    "color": "rgba(191, 210, 43, 1)",
+                    "fontFamily": "RobotoCondensed-Medium",
+                    "fontSize": 20,
+                    "fontWeight": "500",
+                    "lineHeight": 32,
+                  },
+                ]
+              }
+            >
+              0 W
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Output
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Take your wall outlet anywhere
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Allows you to run power-hungry devices and appliances with confidence.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Versatile port options
+            </Text>
+          </View>
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.6)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+                "marginLeft": 46,
+              }
+            }
+          >
+            Power a wide range of devices with seven different port options including fast-charging 60W USB-C Power Delivery, multiple USB-A ports, regulated 12V, and two 120V AC ports.
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(255, 255, 255, 0.09)",
+              "paddingHorizontal": 24,
+            },
+            undefined,
+          ]
+        }
+        testID="info"
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopColor": "rgba(255, 255, 255, 0.12)",
+                "borderTopWidth": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "flexDirection": "row",
+              }
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                    "marginLeft": 12,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Connection USB and USB-C
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

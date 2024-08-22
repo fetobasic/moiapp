@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BatteryProtectionMode renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Battery Protection Mode
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(27, 27, 27, 1)",
+              "borderRadius": 16,
+              "paddingHorizontal": 12,
+              "paddingVertical": 15,
+            },
+            undefined,
+            {
+              "marginBottom": 8,
+              "marginHorizontal": 1,
+              "paddingVertical": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              }
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                },
+                undefined,
+                {
+                  "paddingRight": 0,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                    "lineHeight": 16,
+                    "marginBottom": 4,
+                  },
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  },
+                ]
+              }
+            >
+              You can select between LOW, MEDIUM, or HIGH protection modes.  The default mode is HIGH.
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "marginLeft": 52,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 12,
+              },
+            ]
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(191, 210, 43, 1)",
+              }
+            }
+          >
+            HIGH
+          </Text>
+           
+          protection is best used when the fridge is plugged into a vehicle's 12V port. The fridge may still work when the engine is off depending on the vehicle.
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "marginLeft": 52,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 12,
+              },
+            ]
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(191, 210, 43, 1)",
+              }
+            }
+          >
+            MEDIUM
+          </Text>
+           
+          protection is a good compromise between battery life and fridge performance. It's a good choice if you're using the fridge with a smaller power station.
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginBottom": 16,
+            "marginLeft": 52,
+            "marginRight": 24,
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 12,
+              },
+            ]
+          }
+        >
+          ·
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "rgba(255, 255, 255, 0.87)",
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "marginLeft": 8,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "rgba(191, 210, 43, 1)",
+              }
+            }
+          >
+            LOW
+          </Text>
+           
+          protection is the best used with a larger power station.
+        </Text>
+      </View>
+      <Text
+        style={
+          [
+            {
+              "color": "rgba(255, 255, 255, 0.87)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            {
+              "flex": 1,
+              "marginLeft": 52,
+              "marginRight": 24,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 205, 29, 1)",
+            }
+          }
+        >
+          NOTE: 
+        </Text>
+        MEDIUM & LOW battery protection modes could drain your vehicle's battery preventing your vehicle from starting. If you see the F1 error message, it means you need to adjust protection from HIGH to MEDIUM or LOW.
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;

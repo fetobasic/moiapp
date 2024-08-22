@@ -1,0 +1,6 @@
+// Status
+export const HTTP_STATUS_CONFLICT = 409;
+export const HTTP_STATUS_API_LIMIT = 429;
+export const JOB_STATUS_CANCELED = 'CANCELED';
+export const JOB_STATUS_IN_PROGRESS = 'IN_PROGRESS';
+export const JOB_STATUS_SUCCEEDED = 'SUCCEEDED';

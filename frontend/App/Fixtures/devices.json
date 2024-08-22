@@ -1,0 +1,22 @@
+{
+  "state": {
+    "reported": {
+      "thingName": "MyYeti",
+      "name": "MyYeti",
+      "model": "123",
+      "timeToEmptyFull": 10,
+      "timestamp": 1514472706,
+      "socPercent": 20,
+      "ampsOut": 50,
+      "ampsIn": 50,
+      "usbPortStatus": 0,
+      "firmwareVersion": "0.7.8",
+      "v12PortStatus": 0,
+      "wattsIn": 50,
+      "volts": 99,
+      "isCharging": 0,
+      "acPortStatus": 0,
+      "wattsOut": 50
+    }
+  }
+}

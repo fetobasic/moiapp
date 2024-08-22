@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon">
+<g id="icon_2">
+<path id="Rectangle 1549" d="M3.5 13.9612C3.5 13.5056 3.70713 13.0746 4.06296 12.7899L7.76452 9.8287L7.45734 9.44472L7.76452 9.8287C8.03049 9.61592 8.36096 9.5 8.70156 9.5H23.2984C23.639 9.5 23.9695 9.61592 24.2355 9.8287L27.937 12.7899C28.2929 13.0746 28.5 13.5056 28.5 13.9613L28.5 21C28.5 21.8284 27.8284 22.5 27 22.5H5C4.17157 22.5 3.5 21.8284 3.5 21V13.9612Z" stroke="currentColor"/>
+<rect id="Rectangle 1551" x="15" y="12" width="2" height="5" rx="0.5" fill="currentColor"/>
+<rect id="Rectangle 1555" x="8" y="15" width="2" height="5" rx="0.5" fill="currentColor"/>
+<rect id="Rectangle 1556" x="22" y="15" width="2" height="5" rx="0.5" fill="currentColor"/>
+<rect id="Rectangle 1554" x="0.5" y="6.5" width="31" height="19" rx="1.5" stroke="currentColor"/>
+</g>
+</g>
+</svg>

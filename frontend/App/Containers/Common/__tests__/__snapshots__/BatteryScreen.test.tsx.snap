@@ -1,0 +1,3921 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BatteryScreen renders screen for Yeti renders screen for 6G yeti 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Yeti Battery
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "padding": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Serial Number
+                  </Text>
+                </View>
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "flexDirection": "row",
+                      "justifyContent": "flex-end",
+                    }
+                  }
+                >
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={2}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        {
+                          "fontSize": 12,
+                          "textAlign": "left",
+                        },
+                      ]
+                    }
+                  >
+                    --
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Temperature
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    -148˚F
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The ambient battery pack/cell temperature.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Inverter Temperature
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    302˚F
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The power electronics temperature.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    BMS Temperature
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    57˚F
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The battery protection circuit temperature.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Relative Humidity
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    100 %
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The ambient humidity percent.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    State of Charge
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    85 %
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Remaining battery charge.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    State of Health
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    100 %
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Remaining battery capacity.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Battery Voltage
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    54.4 V
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The amount of electrical potential the battery holds.
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Net Power
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    -9999 W
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Net Current
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    -183.81 A
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Stored Energy
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    1000 Wh
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Energy from 0% to current charge.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    C Rating
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    -- C
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  C-rating measures the speed at which a battery is fully charged or discharged.
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Lifetime Battery Cycles
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    999999
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    User Battery Cycles
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    999999
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "padding": 8,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": false,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "opacity": 1,
+                  },
+                  [
+                    {
+                      "elevation": 12,
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "shadowOffset": {
+                        "height": 4,
+                        "width": 4,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 12,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderRadius": 24,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="48"
+                  bbWidth="100%"
+                  focusable={false}
+                  height={48}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 48,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  width="100%"
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGDefs>
+                      <RNSVGLinearGradient
+                        gradient={
+                          [
+                            0,
+                            -13224394,
+                            1,
+                            1776411,
+                          ]
+                        }
+                        gradientTransform={null}
+                        gradientUnits={0}
+                        name="grad"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="0.5"
+                      />
+                    </RNSVGDefs>
+                    <RNSVGRect
+                      fill={
+                        {
+                          "brushRef": "grad",
+                          "type": 1,
+                        }
+                      }
+                      height="48"
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0"
+                      y="0"
+                    />
+                    <View
+                      style={
+                        [
+                          {
+                            "borderRadius": 24,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                          },
+                          {
+                            "backgroundColor": "rgba(27, 27, 27, 1)",
+                            "height": 46,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "paddingVertical": 12,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "rgba(255, 255, 255, 1)",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontWeight": "700",
+                                  "lineHeight": 20,
+                                  "textTransform": "uppercase",
+                                },
+                                {
+                                  "color": "rgba(191, 210, 43, 1)",
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            RESET USER CYCLES
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Lifetime Energy In
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    999999 Wh
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    User Energy In
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    41515 Wh
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "padding": 8,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": false,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "opacity": 1,
+                  },
+                  [
+                    {
+                      "elevation": 12,
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "shadowOffset": {
+                        "height": 4,
+                        "width": 4,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 12,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderRadius": 24,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="48"
+                  bbWidth="100%"
+                  focusable={false}
+                  height={48}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 48,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  width="100%"
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGDefs>
+                      <RNSVGLinearGradient
+                        gradient={
+                          [
+                            0,
+                            -13224394,
+                            1,
+                            1776411,
+                          ]
+                        }
+                        gradientTransform={null}
+                        gradientUnits={0}
+                        name="grad"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="0.5"
+                      />
+                    </RNSVGDefs>
+                    <RNSVGRect
+                      fill={
+                        {
+                          "brushRef": "grad",
+                          "type": 1,
+                        }
+                      }
+                      height="48"
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0"
+                      y="0"
+                    />
+                    <View
+                      style={
+                        [
+                          {
+                            "borderRadius": 24,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                          },
+                          {
+                            "backgroundColor": "rgba(27, 27, 27, 1)",
+                            "height": 46,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "paddingVertical": 12,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "rgba(255, 255, 255, 1)",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontWeight": "700",
+                                  "lineHeight": 20,
+                                  "textTransform": "uppercase",
+                                },
+                                {
+                                  "color": "rgba(191, 210, 43, 1)",
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            RESET USER ENERGY IN
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Lifetime Energy Out
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    999999 Wh
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    User Energy Out
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    41515 Wh
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "padding": 8,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": false,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "opacity": 1,
+                  },
+                  [
+                    {
+                      "elevation": 12,
+                      "shadowColor": "rgba(0, 0, 0, 1)",
+                      "shadowOffset": {
+                        "height": 4,
+                        "width": 4,
+                      },
+                      "shadowOpacity": 0.2,
+                      "shadowRadius": 12,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "borderRadius": 24,
+                    "overflow": "hidden",
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  bbHeight="48"
+                  bbWidth="100%"
+                  focusable={false}
+                  height={48}
+                  style={
+                    [
+                      {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      {
+                        "flex": 0,
+                        "height": 48,
+                        "width": "100%",
+                      },
+                    ]
+                  }
+                  width="100%"
+                >
+                  <RNSVGGroup
+                    fill={
+                      {
+                        "payload": 4278190080,
+                        "type": 0,
+                      }
+                    }
+                  >
+                    <RNSVGDefs>
+                      <RNSVGLinearGradient
+                        gradient={
+                          [
+                            0,
+                            -13224394,
+                            1,
+                            1776411,
+                          ]
+                        }
+                        gradientTransform={null}
+                        gradientUnits={0}
+                        name="grad"
+                        x1="0"
+                        x2="0"
+                        y1="0"
+                        y2="0.5"
+                      />
+                    </RNSVGDefs>
+                    <RNSVGRect
+                      fill={
+                        {
+                          "brushRef": "grad",
+                          "type": 1,
+                        }
+                      }
+                      height="48"
+                      propList={
+                        [
+                          "fill",
+                        ]
+                      }
+                      width="100%"
+                      x="0"
+                      y="0"
+                    />
+                    <View
+                      style={
+                        [
+                          {
+                            "borderRadius": 24,
+                            "marginHorizontal": 1,
+                            "marginTop": 1,
+                          },
+                          {
+                            "backgroundColor": "rgba(27, 27, 27, 1)",
+                            "height": 46,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        style={
+                          [
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "paddingVertical": 12,
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <View
+                          style={
+                            {
+                              "alignItems": "center",
+                              "flexDirection": "row",
+                            }
+                          }
+                        >
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "rgba(255, 255, 255, 1)",
+                                  "fontFamily": "Roboto-Medium",
+                                  "fontSize": 14,
+                                  "fontWeight": "700",
+                                  "lineHeight": 20,
+                                  "textTransform": "uppercase",
+                                },
+                                {
+                                  "color": "rgba(191, 210, 43, 1)",
+                                },
+                                undefined,
+                              ]
+                            }
+                          >
+                            RESET USER ENERGY OUT
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`BatteryScreen renders screen for Yeti renders screen for legacy yeti 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Yeti Battery
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          {
+            "padding": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Temperature
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    77˚F
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The battery pack temperature.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    State of Charge
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    86 %
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Remaining battery charge.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Battery Voltage
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    11.9 V
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  The amount of electrical potential the battery holds.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Stored Energy
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    1260 Wh
+                  </Text>
+                </View>
+              </View>
+              <View>
+                <Text
+                  style={
+                    {
+                      "color": "rgba(147, 147, 147, 1)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                    }
+                  }
+                >
+                  Energy from 0% to current charge.
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "backgroundColor": "rgba(54, 54, 54, 1)",
+                    "height": 1,
+                    "width": "95%",
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginBottom": 16,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": true,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "opacity": 1,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "paddingHorizontal": 24,
+                  "paddingVertical": 14,
+                }
+              }
+            >
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  }
+                }
+              >
+                <View
+                  style={
+                    {
+                      "paddingRight": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "color": "rgba(255, 255, 255, 0.87)",
+                        "fontFamily": "Roboto-Medium",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                        "maxWidth": 200,
+                        "textAlign": "right",
+                      }
+                    }
+                  >
+                    Total User Wh Out
+                  </Text>
+                </View>
+                <View>
+                  <Text
+                    ellipsizeMode="tail"
+                    numberOfLines={1}
+                    style={
+                      [
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                          "maxWidth": 200,
+                          "textAlign": "right",
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    331 Wh
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

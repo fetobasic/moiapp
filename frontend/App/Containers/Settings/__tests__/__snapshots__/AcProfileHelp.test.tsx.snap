@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcProfileHelp renders screen 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Help
+        </Text>
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 0.87)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 12,
+              "fontWeight": "300",
+              "lineHeight": 16,
+            }
+          }
+        >
+          APS Mode & AC Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "padding": 16,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <SvgMock />
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.7)",
+                "flex": 1,
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginHorizontal": 16,
+              }
+            }
+          >
+            <Text>
+              Out of the box, the Yeti’s AC Profile defaults to the USA 120V/60Hz standard.
+            </Text>
+          </Text>
+        </View>
+        <Image
+          source={
+            {
+              "testUri": "../../../App/Images/InverterController/AcProfile1.png",
+            }
+          }
+          style={
+            {
+              "resizeMode": "contain",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <SvgMock />
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.7)",
+                "flex": 1,
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginHorizontal": 16,
+              }
+            }
+          >
+            <Text>
+              When plugged into an AC power source for the first time, the Yeti will configure the AC Profile to match the AC power source.
+            </Text>
+          </Text>
+        </View>
+        <Image
+          source={
+            {
+              "testUri": "../../../App/Images/InverterController/AcProfile2.png",
+            }
+          }
+          style={
+            {
+              "resizeMode": "contain",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <SvgMock />
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.7)",
+                "flex": 1,
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginHorizontal": 16,
+              }
+            }
+          >
+            <Text>
+              Now the Yeti can be used in 
+              <Text
+                style={
+                  {
+                    "fontStyle": "italic",
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                APS
+              </Text>
+               (AC passthrough) mode, providing a reliable backup solution to AC-powered devices that match the configured AC Profile.
+            </Text>
+          </Text>
+        </View>
+        <Image
+          source={
+            {
+              "testUri": "../../../App/Images/InverterController/AcProfile3.png",
+            }
+          }
+          style={
+            {
+              "resizeMode": "contain",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <SvgMock />
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.7)",
+                "flex": 1,
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginHorizontal": 16,
+              }
+            }
+          >
+            <Text>
+              If the AC Input does not match the configured AC Profile, 
+              <Text
+                style={
+                  {
+                    "fontStyle": "italic",
+                    "fontWeight": "700",
+                  }
+                }
+              >
+                APS
+              </Text>
+               mode will be disabled and the Yeti’s 
+              <Text
+                style={
+                  {
+                    "color": "rgba(191, 210, 43, 1)",
+                  }
+                }
+              >
+                Battery
+              </Text>
+               will be used as the power source.
+            </Text>
+          </Text>
+        </View>
+        <Image
+          source={
+            {
+              "testUri": "../../../App/Images/InverterController/AcProfile4.png",
+            }
+          }
+          style={
+            {
+              "resizeMode": "contain",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          [
+            {
+              "borderColor": "rgba(54, 54, 54, 1)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "marginVertical": 12,
+              "paddingBottom": 6,
+              "paddingHorizontal": 8,
+              "paddingTop": 12,
+              "position": "relative",
+            },
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "marginBottom": 10,
+            }
+          }
+        >
+          <SvgMock />
+          <Text
+            style={
+              {
+                "color": "rgba(255, 255, 255, 0.7)",
+                "flex": 1,
+                "fontFamily": "Roboto-Medium",
+                "fontSize": 12,
+                "fontWeight": "300",
+                "lineHeight": 16,
+                "marginHorizontal": 16,
+              }
+            }
+          >
+            <Text>
+              The AC Profile can be changed on-device in the settings on some Yeti models.
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "height": 32,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

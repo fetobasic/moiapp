@@ -1,0 +1,1457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteAccount renders screen 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "off",
+      "right": "off",
+      "top": "off",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Delete Account
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    style={
+      {
+        "paddingBottom": 8,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(27, 27, 27, 1)",
+              "borderRadius": 16,
+              "paddingHorizontal": 12,
+              "paddingVertical": 15,
+            },
+            undefined,
+            {
+              "marginBottom": 8,
+              "marginHorizontal": 1,
+              "paddingVertical": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              }
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                },
+                undefined,
+                {
+                  "paddingRight": 0,
+                },
+              ]
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  }
+                }
+              >
+                Are you sure you want to delete your account?
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  }
+                }
+              >
+                Check off the following information to confirm that you want to delete your account.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "paddingHorizontal": 24,
+          }
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderRadius": 16,
+                "elevation": 2,
+                "marginBottom": 8,
+                "shadowColor": "rgba(0, 0, 0, 0.4)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.7,
+                "shadowRadius": 7,
+              },
+              [
+                {
+                  "flex": 1,
+                },
+                {},
+                {},
+              ],
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "marginHorizontal": 1,
+                  "overflow": "hidden",
+                  "paddingTop": 1,
+                  "position": "relative",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <RNSVGSvgView
+              bbHeight="100%"
+              bbWidth="100%"
+              focusable={false}
+              height="100%"
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ]
+              }
+              width="100%"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGDefs>
+                  <RNSVGLinearGradient
+                    gradient={
+                      [
+                        0,
+                        -13224394,
+                        1,
+                        1776411,
+                      ]
+                    }
+                    gradientTransform={null}
+                    gradientUnits={0}
+                    name="grad"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="0.5"
+                  />
+                </RNSVGDefs>
+                <RNSVGRect
+                  fill={
+                    {
+                      "brushRef": "grad",
+                      "type": 1,
+                    }
+                  }
+                  height="100%"
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                  width="100%"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(27, 27, 27, 1)",
+                    "borderRadius": 16,
+                    "paddingHorizontal": 12,
+                    "paddingVertical": 15,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "zIndex": 1000,
+                      },
+                      undefined,
+                      undefined,
+                    ],
+                  ]
+                }
+                testID="withPressable"
+              >
+                <View
+                  accessible={false}
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "borderColor": "rgba(255, 255, 255, 0.87)",
+                          "borderRadius": 2,
+                          "borderWidth": 3,
+                          "height": 18,
+                          "justifyContent": "center",
+                          "marginRight": 16,
+                          "marginTop": 2,
+                          "width": 18,
+                        },
+                        {
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                        },
+                        undefined,
+                        false,
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                        }
+                      }
+                    >
+                      My mobile device will be logged out and will no longer be cloud connected.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "borderRadius": 16,
+                "elevation": 2,
+                "marginBottom": 8,
+                "shadowColor": "rgba(0, 0, 0, 0.4)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.7,
+                "shadowRadius": 7,
+              },
+              [
+                {
+                  "flex": 1,
+                },
+                {},
+                {},
+              ],
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "marginHorizontal": 1,
+                  "overflow": "hidden",
+                  "paddingTop": 1,
+                  "position": "relative",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <RNSVGSvgView
+              bbHeight="100%"
+              bbWidth="100%"
+              focusable={false}
+              height="100%"
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ]
+              }
+              width="100%"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGDefs>
+                  <RNSVGLinearGradient
+                    gradient={
+                      [
+                        0,
+                        -13224394,
+                        1,
+                        1776411,
+                      ]
+                    }
+                    gradientTransform={null}
+                    gradientUnits={0}
+                    name="grad"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="0.5"
+                  />
+                </RNSVGDefs>
+                <RNSVGRect
+                  fill={
+                    {
+                      "brushRef": "grad",
+                      "type": 1,
+                    }
+                  }
+                  height="100%"
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                  width="100%"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(27, 27, 27, 1)",
+                    "borderRadius": 16,
+                    "paddingHorizontal": 12,
+                    "paddingVertical": 15,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "zIndex": 1000,
+                      },
+                      undefined,
+                      undefined,
+                    ],
+                  ]
+                }
+                testID="withPressable"
+              >
+                <View
+                  accessible={false}
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "borderColor": "rgba(255, 255, 255, 0.87)",
+                          "borderRadius": 2,
+                          "borderWidth": 3,
+                          "height": 18,
+                          "justifyContent": "center",
+                          "marginRight": 16,
+                          "marginTop": 2,
+                          "width": 18,
+                        },
+                        {
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                        },
+                        undefined,
+                        false,
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                        }
+                      }
+                    >
+                      I will no longer receive real time notifications.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "borderRadius": 16,
+                "elevation": 2,
+                "marginBottom": 8,
+                "shadowColor": "rgba(0, 0, 0, 0.4)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.7,
+                "shadowRadius": 7,
+              },
+              [
+                {
+                  "flex": 1,
+                },
+                {},
+                {},
+              ],
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "marginHorizontal": 1,
+                  "overflow": "hidden",
+                  "paddingTop": 1,
+                  "position": "relative",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <RNSVGSvgView
+              bbHeight="100%"
+              bbWidth="100%"
+              focusable={false}
+              height="100%"
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ]
+              }
+              width="100%"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGDefs>
+                  <RNSVGLinearGradient
+                    gradient={
+                      [
+                        0,
+                        -13224394,
+                        1,
+                        1776411,
+                      ]
+                    }
+                    gradientTransform={null}
+                    gradientUnits={0}
+                    name="grad"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="0.5"
+                  />
+                </RNSVGDefs>
+                <RNSVGRect
+                  fill={
+                    {
+                      "brushRef": "grad",
+                      "type": 1,
+                    }
+                  }
+                  height="100%"
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                  width="100%"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(27, 27, 27, 1)",
+                    "borderRadius": 16,
+                    "paddingHorizontal": 12,
+                    "paddingVertical": 15,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "zIndex": 1000,
+                      },
+                      undefined,
+                      undefined,
+                    ],
+                  ]
+                }
+                testID="withPressable"
+              >
+                <View
+                  accessible={false}
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "borderColor": "rgba(255, 255, 255, 0.87)",
+                          "borderRadius": 2,
+                          "borderWidth": 3,
+                          "height": 18,
+                          "justifyContent": "center",
+                          "marginRight": 16,
+                          "marginTop": 2,
+                          "width": 18,
+                        },
+                        {
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                        },
+                        undefined,
+                        false,
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                        }
+                      }
+                    >
+                      My products will remain cloud connected until factory reset.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "borderRadius": 16,
+                "elevation": 2,
+                "marginBottom": 8,
+                "shadowColor": "rgba(0, 0, 0, 0.4)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.7,
+                "shadowRadius": 7,
+              },
+              [
+                {
+                  "flex": 1,
+                },
+                {},
+                {},
+              ],
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderRadius": 16,
+                  "marginHorizontal": 1,
+                  "overflow": "hidden",
+                  "paddingTop": 1,
+                  "position": "relative",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <RNSVGSvgView
+              bbHeight="100%"
+              bbWidth="100%"
+              focusable={false}
+              height="100%"
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ]
+              }
+              width="100%"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGDefs>
+                  <RNSVGLinearGradient
+                    gradient={
+                      [
+                        0,
+                        -13224394,
+                        1,
+                        1776411,
+                      ]
+                    }
+                    gradientTransform={null}
+                    gradientUnits={0}
+                    name="grad"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="0.5"
+                  />
+                </RNSVGDefs>
+                <RNSVGRect
+                  fill={
+                    {
+                      "brushRef": "grad",
+                      "type": 1,
+                    }
+                  }
+                  height="100%"
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                  width="100%"
+                  x="0"
+                  y="0"
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+            <View
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(27, 27, 27, 1)",
+                    "borderRadius": 16,
+                    "paddingHorizontal": 12,
+                    "paddingVertical": 15,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "opacity": 1,
+                    },
+                    [
+                      {
+                        "zIndex": 1000,
+                      },
+                      undefined,
+                      undefined,
+                    ],
+                  ]
+                }
+                testID="withPressable"
+              >
+                <View
+                  accessible={false}
+                  style={
+                    [
+                      {
+                        "flex": 1,
+                      },
+                      {
+                        "flexDirection": "row",
+                        "opacity": 1,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "borderColor": "rgba(255, 255, 255, 0.87)",
+                          "borderRadius": 2,
+                          "borderWidth": 3,
+                          "height": 18,
+                          "justifyContent": "center",
+                          "marginRight": 16,
+                          "marginTop": 2,
+                          "width": 18,
+                        },
+                        {
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                        },
+                        undefined,
+                        false,
+                      ]
+                    }
+                  />
+                  <View
+                    style={
+                      {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        {
+                          "color": "rgba(255, 255, 255, 0.87)",
+                          "fontFamily": "Roboto-Medium",
+                          "fontSize": 16,
+                          "fontWeight": "400",
+                          "lineHeight": 24,
+                        }
+                      }
+                    >
+                      All of my Goal Zero app and website account information will be deleted.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "rgba(27, 27, 27, 1)",
+              "borderRadius": 16,
+              "paddingHorizontal": 12,
+              "paddingVertical": 15,
+            },
+            undefined,
+            {
+              "marginBottom": 8,
+              "marginHorizontal": 1,
+              "paddingVertical": 16,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "paddingHorizontal": 12,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "height": 32,
+                "justifyContent": "center",
+                "width": 32,
+              }
+            }
+          >
+            <SvgMock />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                },
+                undefined,
+                {
+                  "paddingRight": 0,
+                },
+              ]
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "rgba(255, 255, 255, 0.87)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 14,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  }
+                }
+              >
+                Create a new account anytime to enable all the cloud features we offer.
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "paddingHorizontal": 24,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": true,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
+              {
+                "opacity": 1,
+              },
+              [
+                {
+                  "elevation": 12,
+                  "shadowColor": "rgba(0, 0, 0, 1)",
+                  "shadowOffset": {
+                    "height": 4,
+                    "width": 4,
+                  },
+                  "shadowOpacity": 0.2,
+                  "shadowRadius": 12,
+                },
+                {
+                  "marginTop": 16,
+                },
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "borderRadius": 24,
+                "overflow": "hidden",
+              }
+            }
+          >
+            <RNSVGSvgView
+              bbHeight="48"
+              bbWidth="100%"
+              focusable={false}
+              height={48}
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": 48,
+                    "width": "100%",
+                  },
+                ]
+              }
+              width="100%"
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGDefs>
+                  <RNSVGLinearGradient
+                    gradient={
+                      [
+                        0,
+                        -13224394,
+                        1,
+                        1776411,
+                      ]
+                    }
+                    gradientTransform={null}
+                    gradientUnits={0}
+                    name="grad"
+                    x1="0"
+                    x2="0"
+                    y1="0"
+                    y2="0.5"
+                  />
+                </RNSVGDefs>
+                <RNSVGRect
+                  fill={
+                    {
+                      "brushRef": "grad",
+                      "type": 1,
+                    }
+                  }
+                  height="48"
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                  width="100%"
+                  x="0"
+                  y="0"
+                />
+                <View
+                  style={
+                    [
+                      {
+                        "borderRadius": 24,
+                        "marginHorizontal": 1,
+                        "marginTop": 1,
+                      },
+                      {
+                        "backgroundColor": "rgba(27, 27, 27, 1)",
+                        "height": 46,
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      [
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "paddingVertical": 12,
+                        },
+                        undefined,
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "alignItems": "center",
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          [
+                            {
+                              "color": "rgba(255, 255, 255, 1)",
+                              "fontFamily": "Roboto-Medium",
+                              "fontSize": 14,
+                              "fontWeight": "700",
+                              "lineHeight": 20,
+                              "textTransform": "uppercase",
+                            },
+                            {
+                              "color": "rgba(255, 255, 255, 0.38)",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        Delete Account
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

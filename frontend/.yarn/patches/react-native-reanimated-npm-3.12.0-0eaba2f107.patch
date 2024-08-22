@@ -1,0 +1,93 @@
+diff --git a/src/reanimated2/shareables.ts b/src/reanimated2/shareables.ts
+index d665b0cc4ef08932393433f0d97f50e11928ae3f..51139cec674b07cfc57300e3cd1778caa8f76d4e 100644
+--- a/src/reanimated2/shareables.ts
++++ b/src/reanimated2/shareables.ts
+@@ -139,11 +139,9 @@ export function makeShareableCloneRecursive<T>(
+         toAdapt = value.map((element) =>
+           makeShareableCloneRecursive(element, shouldPersistRemote, depth + 1)
+         );
+-        freezeObjectIfDev(value);
+       } else if (isTypeFunction && !isWorkletFunction(value)) {
+         // this is a remote function
+         toAdapt = value;
+-        freezeObjectIfDev(value);
+       } else if (isHostObject(value)) {
+         // for host objects we pass the reference to the object as shareable and
+         // then recreate new host object wrapping the same instance on the UI thread.
+@@ -193,7 +191,6 @@ Offending code was: \`${getWorkletCode(value)}\``);
+             depth + 1
+           );
+         }
+-        freezeObjectIfDev(value);
+       } else if (value instanceof RegExp) {
+         const pattern = value.source;
+         const flags = value.flags;
+@@ -258,14 +255,23 @@ Offending code was: \`${getWorkletCode(value)}\``);
+         shareableMappingCache.set(value, inaccessibleObject);
+         return inaccessibleObject;
+       }
+-      const adapted = NativeReanimatedModule.makeShareableClone(
++      if (__DEV__) {
++        // we freeze objects that are transformed to shareable. This should help
++        // detect issues when someone modifies data after it's been converted to
++        // shareable. Meaning that they may be doing a faulty assumption in their
++        // code expecting that the updates are going to automatically populate to
++        // the object sent to the UI thread. If the user really wants some objects
++        // to be mutable they should use shared values instead.
++        Object.freeze(value);
++      }
++      const adopted = NativeReanimatedModule.makeShareableClone(
+         toAdapt,
+         shouldPersistRemote,
+         value
+       );
+-      shareableMappingCache.set(value, adapted);
+-      shareableMappingCache.set(adapted);
+-      return adapted;
++      shareableMappingCache.set(value, adopted);
++      shareableMappingCache.set(adopted);
++      return adopted;
+     }
+   }
+   return NativeReanimatedModule.makeShareableClone(
+@@ -300,40 +306,6 @@ function isRemoteFunction<T>(value: {
+   return !!value.__remoteFunction;
+ }
+ 
+-/**
+- * We freeze
+- * - arrays,
+- * - remote functions,
+- * - plain JS objects,
+- *
+- * that are transformed to a shareable with a meaningful warning.
+- * This should help detect issues when someone modifies data after it's been converted.
+- * Meaning that they may be doing a faulty assumption in their
+- * code expecting that the updates are going to automatically propagate to
+- * the object sent to the UI thread. If the user really wants some objects
+- * to be mutable they should use shared values instead.
+- */
+-function freezeObjectIfDev<T extends object>(value: T) {
+-  if (!__DEV__) {
+-    return;
+-  }
+-  Object.entries(value).forEach(([key, element]) => {
+-    Object.defineProperty(value, key, {
+-      get() {
+-        return element;
+-      },
+-      set() {
+-        console.warn(
+-          `[Reanimated] Tried to modify key \`${key}\` of an object which has been already passed to a worklet. See 
+-https://docs.swmansion.com/react-native-reanimated/docs/guides/troubleshooting#tried-to-modify-key-of-an-object-which-has-been-converted-to-a-shareable 
+-for more details.`
+-        );
+-      },
+-    });
+-  });
+-  Object.preventExtensions(value);
+-}
+-
+ export function makeShareableCloneOnUIRecursive<T>(
+   value: T
+ ): FlatShareableRef<T> {

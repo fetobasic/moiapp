@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectWifiNetwork renders screen 1`] = `
+<RNCSafeAreaView
+  edges={
+    {
+      "bottom": "additive",
+      "left": "off",
+      "right": "off",
+      "top": "off",
+    }
+  }
+  style={
+    {
+      "backgroundColor": "rgba(27, 27, 27, 1)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(27, 27, 27, 1)",
+          "borderBottomLeftRadius": 24,
+          "borderBottomRightRadius": 24,
+          "elevation": 12,
+          "shadowColor": "rgba(0, 0, 0, 1)",
+          "shadowOffset": {
+            "height": 4,
+            "width": 4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 12,
+          "zIndex": 1,
+        },
+        {
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 60,
+          "justifyContent": "center",
+          "marginHorizontal": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        hitSlop={20}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            {
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+            },
+          ]
+        }
+      >
+        <SvgMock />
+      </View>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "marginHorizontal": 48,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            {
+              "color": "rgba(255, 255, 255, 1)",
+              "fontFamily": "RobotoCondensed-Medium",
+              "fontSize": 20,
+              "fontWeight": "500",
+              "lineHeight": 32,
+            }
+          }
+        >
+          Cloud Connect
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(27, 27, 27, 1)",
+        "flex": 1,
+        "paddingBottom": 0,
+      }
+    }
+  >
+    <RCTScrollView
+      scrollEnabled={false}
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "rgba(27, 27, 27, 1)",
+                "borderRadius": 16,
+                "paddingHorizontal": 12,
+                "paddingVertical": 15,
+              },
+              undefined,
+              {
+                "marginBottom": 8,
+                "marginHorizontal": 1,
+                "paddingVertical": 16,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "borderTopWidth": 0,
+                  "paddingHorizontal": 8,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <SvgMock />
+            </View>
+            <View
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "paddingLeft": 12,
+                    "paddingRight": 12,
+                  },
+                  undefined,
+                  {
+                    "paddingRight": 0,
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "rgba(255, 255, 255, 0.87)",
+                      "fontFamily": "Roboto-Medium",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                      "marginVertical": 4,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                Select Network
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                    "lineHeight": 16,
+                    "marginTop": 8,
+                  }
+                }
+              >
+                You are paired to your Goal Zero device. Now you will provide the info to connect to your network.
+              </Text>
+              <Text
+                style={
+                  {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                    "lineHeight": 16,
+                    "marginTop": 8,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "rgba(255, 205, 29, 1)",
+                    }
+                  }
+                >
+                  Note
+                </Text>
+                : The device Wi-Fi icon or light on the display will be solid when cloud connected.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "marginHorizontal": 24,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "borderColor": "rgba(54, 54, 54, 1)",
+                  "borderRadius": 8,
+                  "borderWidth": 1,
+                  "marginVertical": 12,
+                  "paddingBottom": 6,
+                  "paddingHorizontal": 8,
+                  "paddingTop": 12,
+                  "position": "relative",
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                [
+                  {
+                    "backgroundColor": "rgba(27, 27, 27, 1)",
+                    "color": "rgba(255, 255, 255, 0.7)",
+                    "fontFamily": "Roboto-Medium",
+                    "fontSize": 12,
+                    "fontWeight": "300",
+                    "left": 8,
+                    "lineHeight": 16,
+                    "paddingLeft": 12,
+                    "position": "absolute",
+                    "top": -9,
+                    "width": "100%",
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Networks
+            </Text>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "paddingVertical": 24,
+                }
+              }
+            >
+              <View
+                style={
+                  [
+                    {
+                      "alignItems": "center",
+                      "borderColor": "rgba(39, 39, 39, 1)",
+                      "borderRadius": 136,
+                      "borderStyle": "dashed",
+                      "borderWidth": 2,
+                      "height": 272,
+                      "justifyContent": "center",
+                      "width": 272,
+                    },
+                    undefined,
+                  ]
+                }
+                testID="radar"
+              >
+                <View
+                  style={
+                    {
+                      "alignItems": "center",
+                      "borderColor": "rgba(39, 39, 39, 1)",
+                      "borderRadius": 104,
+                      "borderWidth": 2,
+                      "height": 208,
+                      "justifyContent": "center",
+                      "width": 208,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "borderColor": "rgba(39, 39, 39, 1)",
+                        "borderRadius": 72,
+                        "borderWidth": 2,
+                        "height": 144,
+                        "justifyContent": "center",
+                        "width": 144,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={
+                        {
+                          "alignItems": "flex-end",
+                          "height": 272,
+                          "opacity": 0,
+                          "position": "absolute",
+                          "transform": [
+                            {
+                              "rotate": "0deg",
+                            },
+                          ],
+                          "width": 272,
+                        }
+                      }
+                    >
+                      <SvgMock />
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "rgba(191, 210, 43, 1)",
+                            "borderRadius": 40,
+                            "height": 80,
+                            "justifyContent": "center",
+                            "width": 80,
+                          },
+                          {
+                            "backgroundColor": "rgba(39, 39, 39, 1)",
+                            "position": "absolute",
+                          },
+                        ]
+                      }
+                    />
+                    <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
+                      accessible={true}
+                      collapsable={false}
+                      focusable={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        [
+                          {
+                            "opacity": 1,
+                          },
+                          {
+                            "alignItems": "center",
+                            "backgroundColor": "rgba(191, 210, 43, 1)",
+                            "borderRadius": 40,
+                            "height": 80,
+                            "justifyContent": "center",
+                            "width": 80,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        collapsable={false}
+                        style={
+                          {
+                            "opacity": 1,
+                            "position": "absolute",
+                          }
+                        }
+                      >
+                        <SvgMock
+                          testID="wifiIcon"
+                        />
+                      </View>
+                      <View
+                        collapsable={false}
+                        style={
+                          {
+                            "opacity": 0,
+                          }
+                        }
+                      >
+                        <SvgMock
+                          color="rgba(255, 255, 255, 0.87)"
+                        />
+                      </View>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "rgba(255, 255, 255, 0.87)",
+              "fontFamily": "Roboto-Medium",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            }
+          }
+        >
+          Don't see your network? 
+          <Text
+            style={
+              {
+                "color": "rgba(191, 210, 43, 1)",
+              }
+            }
+          >
+             Enter Network Manually
+          </Text>
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "opacity": 1,
+            },
+            [
+              {
+                "elevation": 12,
+                "shadowColor": "rgba(0, 0, 0, 1)",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 4,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 12,
+              },
+              [
+                {
+                  "flex": 1,
+                  "margin": 24,
+                },
+                {},
+              ],
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "borderRadius": 24,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <RNSVGSvgView
+            bbHeight="48"
+            bbWidth="100%"
+            focusable={false}
+            height={48}
+            style={
+              [
+                {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                {
+                  "flex": 0,
+                  "height": 48,
+                  "width": "100%",
+                },
+              ]
+            }
+            width="100%"
+          >
+            <RNSVGGroup
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+            >
+              <RNSVGDefs>
+                <RNSVGLinearGradient
+                  gradient={
+                    [
+                      0,
+                      -13224394,
+                      1,
+                      1776411,
+                    ]
+                  }
+                  gradientTransform={null}
+                  gradientUnits={0}
+                  name="grad"
+                  x1="0"
+                  x2="0"
+                  y1="0"
+                  y2="0.5"
+                />
+              </RNSVGDefs>
+              <RNSVGRect
+                fill={
+                  {
+                    "brushRef": "grad",
+                    "type": 1,
+                  }
+                }
+                height="48"
+                propList={
+                  [
+                    "fill",
+                  ]
+                }
+                width="100%"
+                x="0"
+                y="0"
+              />
+              <View
+                style={
+                  [
+                    {
+                      "borderRadius": 24,
+                      "marginHorizontal": 1,
+                      "marginTop": 1,
+                    },
+                    {
+                      "backgroundColor": "rgba(27, 27, 27, 1)",
+                      "height": 46,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "paddingVertical": 12,
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "color": "rgba(255, 255, 255, 1)",
+                            "fontFamily": "Roboto-Medium",
+                            "fontSize": 14,
+                            "fontWeight": "700",
+                            "lineHeight": 20,
+                            "textTransform": "uppercase",
+                          },
+                          {
+                            "color": "rgba(255, 255, 255, 0.38)",
+                          },
+                          undefined,
+                        ]
+                      }
+                    >
+                      Continue
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

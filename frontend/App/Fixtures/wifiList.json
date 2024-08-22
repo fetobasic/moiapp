@@ -1,0 +1,8 @@
+{
+  "HomeWiFi": { "db": 30, "saved": true },
+  "MyCiscoRouter": { "db": 80 },
+  "MyCiscoRouter2": { "db": 80 },
+  "MyCiscoRouter3": { "db": 80 },
+  "MyCiscoRouter4": { "db": 80 },
+  "PrivateNet": { "db": 40, "saved": true }
+}

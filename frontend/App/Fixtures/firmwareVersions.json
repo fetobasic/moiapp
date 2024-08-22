@@ -1,0 +1,17 @@
+[
+  {
+      "version": "0.8.1",
+      "date": "2020-03-30T17:14:22.000Z",
+      "url": "https://yetifirmware-dev.s3.amazonaws.com/yeti_firmware_0.8.1.zip"
+  },
+  {
+      "version": "0.7.8",
+      "date": "2020-03-30T17:14:22.000Z",
+      "url": "https://yetifirmware-dev.s3.amazonaws.com/yeti_firmware_0.7.8.zip"
+  },
+  {
+      "version": "0.7.2",
+      "date": "2020-03-30T17:14:22.000Z",
+      "url": "https://yetifirmware-dev.s3.amazonaws.com/yeti_firmware_0.7.2.zip"
+  }
+]
